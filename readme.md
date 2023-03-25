@@ -39,25 +39,41 @@
 
 Если запрошенные ширина или высота превышают размеры исходного изображения, выдается доступная часть изображения.
 
+![lenna_crop](https://user-images.githubusercontent.com/58818686/227744197-4d702136-204f-47e5-adb0-33bfc6b83a60.png)
+
 #### Grayscale (-gs)
 Преобразует изображение в оттенки серого по формуле
+
+![lenna_gs](https://user-images.githubusercontent.com/58818686/227744148-54f56b04-fb84-471c-a85d-d0387bd1cf9c.png)
 
 #### Negative (-neg)
 Преобразует изображение в негатив
 
+![lenna_neg](https://user-images.githubusercontent.com/58818686/227744119-406bfe72-7840-4673-b267-53d911bfa2a0.png)
+
 #### Sharpening (-sharp)
 Повышение резкости
+
+![lenna_sharp](https://user-images.githubusercontent.com/58818686/227744093-46eb966e-aef1-4b03-bccf-af83f2898332.png)
 
 #### Edge Detection (-edge threshold)
 Выделение границ в оттенках серого
 
 Пиксели со значением, превысившим `threshold`, окрашиваются в белый, остальные – в черный.
 
+![output](https://user-images.githubusercontent.com/58818686/227744036-c7464113-333b-4aed-82a8-8cba895f4a40.png)
+
+
 #### Gaussian Blur (-blur sigma)
 [Гауссово размытие](https://ru.wikipedia.org/wiki/Размытие_по_Гауссу),
 параметр – сигма.
 
+![lenna_blur](https://user-images.githubusercontent.com/58818686/227744069-3cb06b86-9b17-480e-bc73-1f2aff882aef.png)
+
+
 #### Anaglyph (-anag shift)
 
 Применяет анаглиф - сине-красное смещение - на `shift` пикселей
+
+![lenna_anag](https://user-images.githubusercontent.com/58818686/227743999-760c7735-4aeb-4e78-b441-87f42abce562.png)
 
