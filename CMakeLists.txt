@@ -1,3 +1,7 @@
+cmake_minimum_required(VERSION 3.24)
+
+project(image_processor)
+
 add_executable(
         image_processor
         image_processor.cpp
